@@ -42,4 +42,4 @@ The frontend of the application is developed using React, leveraging the power o
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/Task-Management-App.git
+   git clone https://github.com/clever-marcus/Task-Management-App.git
