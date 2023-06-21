@@ -29,7 +29,12 @@ The frontend of the application is developed using React, leveraging the power o
   - Django ORM: Object-Relational Mapping for database interaction
   - PostgreSQL: Relational database for storing tasks
 
-## Installation
+## UI functionality
+- The Application has a button called "Add Task." When this button is clicked, a window appears displaying input fields for the task title and description, as well as a button to save the task.
+- The application has two sections: Complete and Incomplete.
+- Tasks that are marked as "complete" are stored in the Complete section and labeled as "saved."
+- Tasks that are not yet complete are stored in the Incomplete section.
+- The completed tasks are stored in Django's Database using the RestFramework. The React frontend and Django backend communicate through an API.
 
 ### Prerequisites
 
